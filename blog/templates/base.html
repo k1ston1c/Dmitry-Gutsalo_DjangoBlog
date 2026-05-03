@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>Дмитрий Гуцало - django blog</title>
+  </head>
+  <body>
+    <header>
+      <h1><a href="{% url 'home' %}">Дмитрий Гуцало - django blog</a></h1>
+    </header>
+    <div>
+      {% block content %}
+      {% endblock content %}
+    </div>
+  </body>
+</html>
